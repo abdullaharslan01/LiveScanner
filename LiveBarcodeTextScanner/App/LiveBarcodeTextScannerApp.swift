@@ -11,7 +11,8 @@ import SwiftUI
 struct LiveBarcodeTextScannerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LiveScannerView()
+                
         }
     }
 }
